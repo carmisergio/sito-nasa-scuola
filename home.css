@@ -1,0 +1,69 @@
+main {
+  height: calc(100vh - 6.5em);
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.panel {
+  height: calc(100vh - 6.5em);
+  width: 100%;
+  background-size: cover;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.paneltext {
+  width: 35em;
+  padding: 4em;
+  transition: all 0.15s ease;
+}
+
+.paneltext:hover {
+  padding-left: 6em;
+  transition: all 0.15s ease;
+  border-left: 5px solid var(--lightgrey);
+}
+
+.paneltext h1 {
+  font-size: 3.5em;
+  color: white;
+}
+
+.paneltext p {
+  width: 15em;
+  margin-top: 2em;
+  font-size: 1.5em;
+  color: var(--lightgrey);
+}
+
+.panel2text {
+  position: absolute;
+  width: 40em;
+  bottom: 0px;
+  right: 0px;
+  padding: 4em;
+  transition: all 0.15s ease;
+  background-color: #ffffffbb;
+}
+
+.panel2text h1 {
+  font-size: 3.5em;
+  color: black;
+  text-align: right;
+}
+
+.panel2text p {
+  position: relative;
+  right: 0px;
+  margin-top: 2em;
+  font-size: 1.5em;
+  color: black;
+  text-align: right;
+}
+
+.panel2text:hover {
+  padding-right: 6em;
+  padding-left: 0em;
+  transition: all 0.15s ease;
+  border-right: 5px solid var(--darkgrey);
+}

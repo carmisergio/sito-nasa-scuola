@@ -1,0 +1,78 @@
+/* Colors */
+* {
+  --nasablue: #0b3d91;
+  --darknasablue: #061f4a;
+  --nasared: #dd361c;
+  --nasadarkred: #99231b;
+  --lightgrey: #e5e5e5;
+  --darkgrey: #323232;
+}
+
+/* Font imports */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+  font-family: Libre Franklin, sans-serif;
+  color: white;
+}
+
+.navbar {
+  height: 6.5em;
+  width: 100%;
+  background-color: var(--nasablue);
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+  z-index: 99;
+}
+
+.navbarlogo {
+  width: 20em;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  left: -0.8em;
+  transition: all 0.3s ease;
+}
+
+.navbarlogo:hover {
+  width: 22em;
+  transition: all 0.15s ease;
+}
+
+.navlinks {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navlinks a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  padding: 0em 1.5em;
+  font-size: 1.5em;
+  font-weight: 800;
+  transition: all 0.15s ease;
+}
+
+.navlinks a:hover {
+  background-color: var(--nasared);
+  color: white !important;
+  transition: all 0.15s ease;
+}
+
+.filler {
+  height: 6.5em;
+}
