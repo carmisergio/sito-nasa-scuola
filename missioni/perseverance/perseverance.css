@@ -1,0 +1,131 @@
+main {
+  overflow-y: scroll;
+  height: calc(100vh - 6.5em);
+  background-color: white;
+}
+
+.pageheader {
+  background-color: var(--darknasablue);
+  padding: 4em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageheader h1 {
+  font-size: 5.5em;
+  max-width: 80rem;
+}
+
+.pageheader p {
+  max-width: 65rem;
+  font-size: 2em;
+  color: var(--lightgrey);
+  margin-top: 2em;
+  line-height: 3rem;
+}
+
+.missions {
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mission {
+  background-color: white;
+  height: 40em;
+  display: flex;
+  align-items: center;
+  max-width: 150em;
+  width: calc(100vw - 10em);
+  margin-bottom: 5em;
+}
+
+.mission img {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+}
+
+.mission h1 {
+  color: black;
+  font-size: 3.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  max-width: 50rem;
+}
+
+.bigimg {
+  width: 100%;
+  height: 75em;
+  background-image: url("../img/perseverance.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 50%;
+  padding: 5em;
+}
+
+.text h1 {
+  color: black;
+  font-size: 3.5em;
+  margin-bottom: 1em;
+}
+
+.text p {
+  color: var(--darkgrey);
+  font-size: 1.5em;
+  margin-top: 1em;
+  line-height: 1.5em;
+  display: inline;
+  text-align: justify;
+}
+
+.tracker {
+  height: 60em;
+  background-color: var(--nasablue);
+  padding: 4em;
+  margin: 0em 5em 5em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tracker h1 {
+  color: white;
+  font-size: 3.5em;
+  margin-bottom: 2rem;
+}
+
+.tracker a {
+  color: var(--nasared);
+  transition: all 0.15s ease;
+}
+
+.tracker a:hover {
+  color: var(--lightgrey);
+  transition: all 0.15s ease;
+}
+
+.text img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.valign {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

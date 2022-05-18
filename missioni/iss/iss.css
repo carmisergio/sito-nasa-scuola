@@ -1,7 +1,7 @@
 main {
   overflow-y: scroll;
   height: calc(100vh - 6.5em);
-  background-color: var(--darkgrey);
+  background-color: white;
 }
 
 .pageheader {
@@ -55,4 +55,53 @@ main {
   padding-left: 2em;
   padding-right: 2em;
   max-width: 50rem;
+}
+
+.bigimg {
+  width: 100%;
+  height: 75em;
+  background-image: url("../img/iss.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  background-color: white;
+  padding: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 45%;
+}
+
+.text h1 {
+  color: black;
+  font-size: 3.5em;
+  margin-bottom: 1em;
+}
+
+.text p {
+  color: var(--darkgrey);
+  font-size: 1.5em;
+  margin-top: 1em;
+  line-height: 1.5em;
+  display: inline;
+  text-align: justify;
+}
+
+.tracker {
+  background-color: var(--nasablue);
+  padding: 4em;
+  margin: 0em 5em 5em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tracker h1 {
+  color: white;
+  font-size: 3.5em;
+  margin-bottom: 1em;
 }
